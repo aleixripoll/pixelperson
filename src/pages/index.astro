@@ -1,0 +1,94 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+const allPosts = await getCollection("blog");
+const posts = [...allPosts].sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+
+const years = [...new Set(posts.map((p) => p.data.pubDate.getFullYear()))].sort((a, b) => b - a);
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+}
+---
+<Base title="Pixelperson" description="A simple masonry blog">
+  <h1 class="mb-4 text-2xl font-bold text-[var(--color-text)]">Posts</h1>
+  <div class="year-filter mb-8 flex flex-wrap items-center gap-2">
+    <span class="text-sm text-[var(--color-muted)] mr-1">Year:</span>
+    <button type="button" class="year-filter-btn is-active rounded-md px-3 py-1.5 text-sm font-medium transition-colors" data-year="all" aria-pressed="true">
+      All
+    </button>
+    {years.map((year) => (
+      <button type="button" class="year-filter-btn rounded-md px-3 py-1.5 text-sm font-medium transition-colors" data-year={String(year)} aria-pressed="false">
+        {year}
+      </button>
+    ))}
+  </div>
+  <div class="masonry" id="posts-masonry">
+    {posts.map((entry) => {
+      const year = entry.data.pubDate.getFullYear();
+      return (
+      <article class="masonry-item" data-year={year}>
+        <a href={`/blog/${entry.slug}/`} class="masonry-card">
+          <div
+            class="masonry-card-image-wrap"
+            style={entry.data.image ? `aspect-ratio: ${entry.data.image.width} / ${entry.data.image.height};` : undefined}
+          >
+            {entry.data.image ? (
+              <Image
+                src={entry.data.image}
+                alt={entry.data.title}
+                width={entry.data.image.width}
+                height={entry.data.image.height}
+                loading="lazy"
+                class="h-full w-full object-cover"
+              />
+            ) : (
+              <div class="masonry-card-placeholder" aria-hidden="true">
+                {entry.data.title?.slice(0, 1) ?? "?"}
+              </div>
+            )}
+          </div>
+          <div class="masonry-card-body">
+            <p class="masonry-card-date">{formatDate(entry.data.pubDate)}</p>
+            <h2 class="masonry-card-title">{entry.data.title}</h2>
+            {entry.data.description && (
+              <p class="masonry-card-excerpt">{entry.data.description}</p>
+            )}
+          </div>
+        </a>
+      </article>
+    );
+    })}
+  </div>
+  <script>
+    (function() {
+      const container = document.getElementById('posts-masonry');
+      const items = container?.querySelectorAll('.masonry-item');
+      const buttons = document.querySelectorAll('.year-filter-btn');
+      if (!items?.length || !buttons.length) return;
+
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const year = btn.getAttribute('data-year');
+          buttons.forEach((b) => {
+            b.classList.toggle('is-active', b === btn);
+            b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+          });
+          items.forEach((el) => {
+            const itemYear = el.getAttribute('data-year');
+            const show = year === 'all' || itemYear === year;
+            el.style.display = show ? '' : 'none';
+          });
+        });
+      });
+    })();
+  </script>
+</Base>
