@@ -111,6 +111,14 @@ body {
 .post-content h5 { font-size: 1rem; }
 .post-content h6 { font-size: 0.875rem; }
 
+/* Markdown horizontal rule (---) */
+.post-content hr {
+  margin: 3em 0;
+  border: none;
+  border-top: 1px solid var(--color-muted);
+  max-width: 4rem;
+}
+
 /* Markdown lists */
 .post-content ul,
 .post-content ol {
