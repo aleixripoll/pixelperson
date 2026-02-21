@@ -1,5 +1,5 @@
 ---
-title: "Burn (Quema)"
+title: "Burn"
 description: "Herman Pontzer"
 pubDate: 2024-03-11
 image: ./cover.png
