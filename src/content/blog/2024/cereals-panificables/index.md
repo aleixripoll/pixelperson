@@ -5,10 +5,10 @@ image: ./cover.png
 pubDate: 2024-02-27
 ---
 
-Tots els cereals panificables (excepte el fajol) son diferents varietats del blat. Anomenen "blat" a la varietat més popular.
-
 # Blat
 *[en: wheat, es: trigo]*
+
+Tots els cereals panificables (excepte el fajol) son diferents varietats del blat. Anomenen "blat" a la varietat més popular.
 
 Aporta principalment:
 - Hidrats de carboni.
