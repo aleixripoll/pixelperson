@@ -12,20 +12,20 @@
 
 /* Dark theme: applied when html has .dark class */
 html.dark {
-  --color-bg: #17181c;
+  --color-bg: #1e2026;
   --color-text: #f4f4f5;
-  --color-muted: #a1a1aa;
-  --color-border: #27272a;
+  --color-muted: #a8a8b0;
+  --color-border: #32333a;
   --color-accent: #818cf8;
 }
 
 /* Default: follow system preference when no manual choice is saved */
 @media (prefers-color-scheme: dark) {
   html:not(.light) {
-    --color-bg: #17181c;
+    --color-bg: #1e2026;
     --color-text: #f4f4f5;
-    --color-muted: #a1a1aa;
-    --color-border: #27272a;
+    --color-muted: #a8a8b0;
+    --color-border: #32333a;
     --color-accent: #818cf8;
   }
 }
