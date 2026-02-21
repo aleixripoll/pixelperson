@@ -1,7 +1,7 @@
 ---
 title: "¿Qué puede salir mal?"
 description: "Sandra Ortonobes, La Hiperactina"
-pubDate: 2025-02-20
+pubDate: 2024-02-10
 image: ./cover.png
 ---
 
