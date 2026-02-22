@@ -1,5 +1,5 @@
 ---
-title: "Cereals panificables"
+title: "Cereals 101"
 description: "Blat contra tots."
 image: ./cover.png
 pubDate: 2024-02-27
