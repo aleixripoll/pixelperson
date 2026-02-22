@@ -1,7 +1,7 @@
 ---
-title: "Hormones i neurotransmissors 101"
+title: "Hormones vs. Neurotransmissors"
 description: "S'assemblen però no."
-image: ./cover.png
+image: ./cover.jpeg
 pubDate: 2024-03-19
 ---
 
