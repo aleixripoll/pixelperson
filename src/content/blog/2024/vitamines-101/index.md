@@ -8,7 +8,7 @@ pubDate: 2024-02-07
 # Informació general
 - Son substàncies **orgàniques** (contenen carboni).
 - Son necessàries per a diversos processos metabòlics.
-- Poden ser **hidrosolubles** (es dissolen en aigua, B i C, les hem de consumir tots els dies, la deficiència es manifesta en poques setmanes) o **liposolubles** (es dissolen en oli, ADEK, la deficiència es manifesta en mesos o anys).
+- Poden ser **hidrosolubles** (B i C, es dissolen en aigua, les hem de consumir tots els dies, la deficiència es manifesta en poques setmanes) o **liposolubles** (ADEK, es dissolen en oli, la deficiència es manifesta en mesos o anys).
 
 > **Apunt:** Oli i aigua no es barregen per la diferència de polaritats, no de densitats. L'aigua (H<sub>2</sub>O) és una mol·lècula **polar**: l'àtom d'oxigen atrau els dos hidrògens i genera dos pols amb càrrega elèctrica, convertint-la en un imant. L'oli és una molècula no polar: no hi ha grans forces internes i no té càrrega elèctrica, per tant no reacciona en contacte amb l'aigua.
 
