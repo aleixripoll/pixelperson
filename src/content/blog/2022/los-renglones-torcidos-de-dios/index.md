@@ -1,6 +1,6 @@
 ---
 title: "Los renglones torcidos de Dios"
-description: " Torcuato Luca de Tena"
+description: "Torcuato Luca de Tena"
 image: ./cover.png
 pubDate: 2022-08-15
 ---

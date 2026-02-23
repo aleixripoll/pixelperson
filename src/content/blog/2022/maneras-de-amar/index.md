@@ -1,6 +1,6 @@
 ---
 title: "Maneras de amar"
-description: "Amir Levine, Rachel Heller."
+description: "Amir Levine, Rachel Heller"
 image: ./cover.png
 pubDate: 2022-05-17
 ---

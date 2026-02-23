@@ -1,6 +1,6 @@
 ---
 title: "Apego y psicopatología: la ansiedad y su origen"
-description: Libro de Manuel Hernández Pacheco.
+description: "Manuel Hernández Pacheco"
 image: ./cover.png
 pubDate: 2022-10-04
 ---

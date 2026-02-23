@@ -1,6 +1,6 @@
 ---
 title: "Psychology: A concise introduction"
-description: "Richard A. Griggs, Sherri L. Jackson."
+description: "Richard A. Griggs, Sherri L. Jackson"
 image: "./cover.png"
 pubDate: 2022-08-10
 ---
