@@ -1,7 +1,7 @@
 ---
 title: "El poder del ahora"
 description: "Eckhart Tolle"
-image: ./cover.jpeg
+image: ./cover.png
 pubDate: 2022-02-02
 ---
 
