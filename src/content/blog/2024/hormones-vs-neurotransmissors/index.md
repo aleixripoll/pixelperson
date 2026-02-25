@@ -1,7 +1,7 @@
 ---
 title: "Hormones vs. Neurotransmissors"
 description: "S'assemblen però no."
-image: ./cover.jpeg
+image: ./cover.png
 pubDate: 2024-03-19
 ---
 
