@@ -2,7 +2,7 @@
 title: "El capitán salió a comer y los marineros tomaron el barco"
 description: "Charles Bukowski"
 pubDate: 2017-08-12
-image: ./pexels-pixabay-275637.jpg
+image: ./cover.svg
 ---
 
 

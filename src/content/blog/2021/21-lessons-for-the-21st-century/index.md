@@ -2,7 +2,7 @@
 title: "21 lessons for the 21st century"
 description: "Yuval Noah Harari"
 pubDate: 2021-10-07
-image: ./ai-generated-8965985.jpeg
+image: ./cover.svg
 ---
 
 Truth and power can travel together only so far. Sooner or later they go their separate ways. If you want power at some point you will have to spread fictions. If you want to know the truth about the world, at some point you will have to renounce power. You will have to admit things - for example about the sources of your own power - that will anger allies, dishearten followers or undermine social harmony. (...)

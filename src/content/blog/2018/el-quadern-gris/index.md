@@ -2,7 +2,7 @@
 title: "El quadern gris"
 description: "Autobiografia de Josep Pla."
 pubDate: 2019-04-04
-image: ./dariusz-sankowski-3OiYMgDKJ6k-unsplash.webp
+image: ./cover.svg
 ---
 
 A la biblioteca, un dia Climent em preguntà:

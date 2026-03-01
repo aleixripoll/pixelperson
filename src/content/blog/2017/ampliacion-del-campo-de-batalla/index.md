@@ -2,7 +2,7 @@
 title: "Ampliación del campo de batalla"
 description: "Michel Houellebecq"
 pubDate: 2017-10-20
-image: ./nasa-Q1p7bh3SHj8-unsplash.jpg
+image: ./cover.svg
 ---
 
 
