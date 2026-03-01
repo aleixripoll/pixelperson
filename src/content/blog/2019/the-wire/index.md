@@ -1,6 +1,6 @@
 ---
 title: "The Wire"
-description: "La mejor serie de la historia. Dirigida por David Simon, HBO."
+description: "Sèrie d'HBO, dirigida por David Simon."
 pubDate: 2019-09-01
 image: ./the-wire-ka-1920.webp
 ---
