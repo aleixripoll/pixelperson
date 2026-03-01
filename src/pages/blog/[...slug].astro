@@ -40,6 +40,10 @@ function formatDate(date: Date) {
               alt={entry.data.title}
               width={entry.data.image.width}
               height={entry.data.image.height}
+              format="webp"
+              quality={82}
+              widths={[640, 828, 1080, 1280]}
+              sizes="(max-width: 768px) 100vw, 50vw"
               class="h-full w-full object-contain"
             />
           </div>

@@ -7,6 +7,13 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 export default defineConfig({
   site: "https://aleixripoll.github.io",
   base: "/pixelperson/",
+  image: {
+    // Smaller output: AVIF/WebP and reduced quality to cut file size
+    service: {
+      entrypoint: "astro/assets/services/sharp",
+      config: { limitInputPixels: false },
+    },
+  },
   integrations: [
     tailwind({ applyBaseStyles: false }),
   ],

@@ -40,6 +40,10 @@ const baseUrl = import.meta.env.BASE_URL;
                 alt={entry.data.title}
                 width={entry.data.image.width}
                 height={entry.data.image.height}
+                format="webp"
+                quality={82}
+                widths={[320, 480, 640, 828, 1080]}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 loading="lazy"
                 class="h-full w-full object-cover"
               />
