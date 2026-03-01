@@ -7,7 +7,7 @@
   --color-text: #1a1a1a;
   --color-muted: #6b7280;
   --color-border: #e5e7eb;
-  --color-accent: #b85050;
+  --color-accent: #0284c7;
 }
 
 /* Dark theme: applied when html has .dark class */
@@ -16,7 +16,7 @@ html.dark {
   --color-text: #dcdce0;
   --color-muted: #a8a8b0;
   --color-border: #32333a;
-  --color-accent: #d48686;
+  --color-accent: #52b5e8;
 }
 
 /* Default: follow system preference when no manual choice is saved */
@@ -26,7 +26,7 @@ html.dark {
     --color-text: #dcdce0;
     --color-muted: #a8a8b0;
     --color-border: #32333a;
-    --color-accent: #d48686;
+    --color-accent: #52b5e8;
   }
 }
 
@@ -177,23 +177,12 @@ body {
   margin-bottom: 0;
 }
 
-/* Bold text: primary color (light mode); subtle red (dark mode) */
+/* Bold text: primary color in all themes */
 .post-content strong,
 .post-content b {
   color: var(--color-accent);
 }
 
-html.dark .post-content strong,
-html.dark .post-content b {
-  color: #d48686;
-}
-
-@media (prefers-color-scheme: dark) {
-  html:not(.light) .post-content strong,
-  html:not(.light) .post-content b {
-    color: #d48686;
-  }
-}
 
 /* Markdown links: same as back-to-posts link */
 .post-content a {
