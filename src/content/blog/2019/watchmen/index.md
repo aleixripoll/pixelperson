@@ -1,6 +1,6 @@
 ---
 title: "Watchmen"
-description: "Pel·lícula de Zack Snyder basada en el cómic d'Alan Moore."
+description: "Pel·lícula de Zack Snyder basada en el còmic d'Alan Moore."
 pubDate: 2019-12-20
 image: ./cover.webp
 ---
