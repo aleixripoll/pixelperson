@@ -1,6 +1,6 @@
 ---
 title: "Plataforma"
-description: "Tercera novela de Michel Houellebecq."
+description: "Michel Houellebecq"
 pubDate: 2017-11-29
 image: ./alexander-krivitskiy-zhG_w269I7I-unsplash.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: "La masa enfurecida"
-description: "Ensayo sobre las masas y la opinión pública, por Douglas Murray."
+description: "Douglas Murray"
 pubDate: 2020-11-08
 image: ./pexels-shane-aldendorff-4561540.webp
 ---

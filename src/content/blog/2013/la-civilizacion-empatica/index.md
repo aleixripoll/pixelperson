@@ -1,6 +1,6 @@
 ---
 title: "La civilización empática"
-description: "Ensayo sobre la civilización, por Jeremy Rifkin."
+description: "Jeremy Rifkin"
 pubDate: 2013-07-14
 image: ./elevators-1598431_1280.jpg
 ---

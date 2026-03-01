@@ -5,7 +5,6 @@ pubDate: 2008-06-06
 image: ./cover.jpg
 ---
 
-
 > Algunas personas miran al mundo y dicen: «¿Por qué?». Otras miran al mundo y dicen: «¿Por qué no?».
 
 > Cuando Dios creó el mundo, vio que era bueno. ¿Qué dirá ahora?

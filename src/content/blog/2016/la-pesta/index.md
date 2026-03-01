@@ -1,6 +1,6 @@
 ---
 title: "La pesta"
-description: "Novel·la d'Albert Camus."
+description: "Albert Camus"
 pubDate: 2016-03-06
 image: ./hubistavern-w37Tyg8bYYM-unsplash.jpg
 ---

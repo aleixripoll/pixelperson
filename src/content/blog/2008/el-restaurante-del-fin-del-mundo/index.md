@@ -5,7 +5,6 @@ pubDate: 2008-06-05
 image: ./pexels-pavel-danilyuk-8439176.jpg
 ---
 
-
 La Guía del autoestopista galáctico es un compañero indispensable para todos aquellos que se sientan inclinados a encontrar un sentido a la vida en un Universo infinitamente confuso y complejo, porque si bien no espera ser útil o instructiva en todos los aspectos, al menos sostiene de manera tranquilizadora que si hay una inexactitud, se trata de un error definitivo. En casos de discrepancias importantes, siempre es la realidad quien se equivoca.
 
 Esa era la esencia del aviso. Decía: «La Guía es definitiva. La realidad es con frecuencia errónea.»

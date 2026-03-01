@@ -1,6 +1,6 @@
 ---
 title: "El principio de Dilbert"
-description: "Libro con tiras cómicas de Dilbert, por Scott Adams."
+description: "Scott Adams"
 pubDate: 2014-11-14
 image: ./cover.webp
 ---

@@ -5,8 +5,6 @@ pubDate: 2008-06-02
 image: ./fight_club_edward_norton.avif
 ---
 
-
-
 Estos tíos no son los mismos en el club y en la vida real. Aunque felicitaras al chico de la copistería por su lucha, no estarías hablando con la misma persona.
 
 El que yo soy en el club de lucha no es nadie que mi jefe conozca.

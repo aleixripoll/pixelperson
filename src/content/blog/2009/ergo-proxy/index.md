@@ -5,7 +5,6 @@ pubDate: 2009-04-01
 image: ./cover.jpg
 ---
 
-
 Sweet is sleep to me\
 and even more to be of stone,\
 while the wrong and shame endure.\

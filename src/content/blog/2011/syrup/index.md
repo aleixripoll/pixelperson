@@ -1,8 +1,8 @@
 ---
 title: "Syrup"
-description: "Primera novel·la de Max Barry."
+description: "Max Barry"
 pubDate: 2011-11-17
-image: ./cover.jpg
+image: ./cover.webp
 ---
 
 

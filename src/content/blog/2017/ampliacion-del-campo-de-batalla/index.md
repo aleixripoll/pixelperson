@@ -1,6 +1,6 @@
 ---
 title: "Ampliación del campo de batalla"
-description: "Crítica al liberalismo, primera novela de Michel Houellebecq."
+description: "Michel Houellebecq"
 pubDate: 2017-10-20
 image: ./nasa-Q1p7bh3SHj8-unsplash.jpg
 ---

@@ -1,10 +1,9 @@
 ---
 title: "Superviviente"
-description: "Segunda novela de Chuck Palahniuk."
+description: "Chuck Palahniuk"
 pubDate: 2011-06-23
 image: ./pexels-austin-zhang-2441844.jpg
 ---
-
 
 Para mi asistente, cuando empezamos hace diez años, yo no era un mangui. Al principio, yo era un caso de desorden obsesivo-compulsivo. Ella acababa de sacarse el título y tenía aún sus libros de texto para demostrarlo.
 

@@ -1,6 +1,6 @@
 ---
 title: "The Fountainhead"
-description: "Oda al neoliberalismo, por Ayn Rand."
+description: "Ayn Rand"
 pubDate: 2020-04-26
 image: ./pexels-gotta-be-worth-it-919179.jpg
 ---

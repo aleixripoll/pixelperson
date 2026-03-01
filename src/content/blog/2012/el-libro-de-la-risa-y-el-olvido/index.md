@@ -1,6 +1,6 @@
 ---
 title: "El libro de la risa y el olvido"
-description: "Novela de Milan Kundera."
+description: "Milan Kundera"
 pubDate: 2012-12-31
 image: ./cover.webp
 ---

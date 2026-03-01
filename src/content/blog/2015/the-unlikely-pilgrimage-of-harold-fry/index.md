@@ -1,6 +1,6 @@
 ---
 title: "The unlikely pilgrimage of Harold Fry"
-description: "Novela de Rachel Joyce."
+description: "Rachel Joyce"
 pubDate: 2015-11-29
 image: ./jad-limcaco-fRggLY1DQTM-unsplash.jpg
 ---

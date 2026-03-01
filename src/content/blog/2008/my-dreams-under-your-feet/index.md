@@ -5,7 +5,6 @@ pubDate: 2008-05-31
 image: ./pexels-tobi-631986.jpg
 ---
 
-
 Had I the heavens’ embroidered cloths,\
 Enwrought with golden and silver light,\
 The blue and the dim and the dark cloths\

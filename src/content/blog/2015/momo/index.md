@@ -1,6 +1,6 @@
 ---
 title: "Momo"
-description: "Novela de Michael Ende."
+description: "Michael Ende"
 pubDate: 2015-11-29
 image: ./cover.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Dune"
-description: "Novela de Frank Herbert."
+description: "Frank Herbert"
 pubDate: 2021-12-16
 image: ./pexels-emiliano-arano-1352196.jpg
 ---

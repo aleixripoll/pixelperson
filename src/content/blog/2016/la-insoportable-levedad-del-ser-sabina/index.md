@@ -1,6 +1,6 @@
 ---
 title: "La insoportable levedad del ser (Sabina)"
-description: "Novela de Milan Kundera."
+description: "Milan Kundera"
 pubDate: 2016-03-16
 image: ./pexels-alexander-krivitskiy-1399073.jpg
 ---

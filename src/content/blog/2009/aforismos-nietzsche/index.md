@@ -1,10 +1,9 @@
 ---
 title: "Aforismos"
-description: "Recopilatorio de citas de Friedrich Nietzsche."
+description: "Friedrich Nietzsche"
 pubDate: 2009-04-10
 image: ./jaredd-craig-HH4WBGNyltc-unsplash.jpg
 ---
-
 
 > «Vosotros miráis a lo alto cuando aspiráis a la elevación. Y yo miro hacia abajo porque estoy alto. ¿Quién de vosotros puede al mismo tiempo reír y estar alto? Quien se cierne sobre las más altas montañas se ríe de todas las tragedias de la escena y de la vida.»
 

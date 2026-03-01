@@ -1,6 +1,6 @@
 ---
 title: "La broma"
-description: "Todo será olvidado, por Milan Kundera."
+description: "Milan Kundera"
 pubDate: 2012-12-20
 image: ./cover.webp
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Victus"
-description: "Guerra de successió i setge de Barcelona, per Albert Sánchez Piñol."
+description: "Albert Sánchez Piñol"
 pubDate: 2020-02-22
 image: ./cover.jpg
 ---

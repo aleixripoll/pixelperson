@@ -1,6 +1,6 @@
 ---
 title: "La pell freda"
-description: "Novel·la d'Albert Sánchez Piñol."
+description: "Albert Sánchez Piñol"
 pubDate: 2019-01-26
 image: ./cover.webp
 ---

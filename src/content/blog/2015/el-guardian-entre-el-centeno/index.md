@@ -1,6 +1,6 @@
 ---
 title: "El guardián entre el centeno"
-description: "Dramas de adolescencia, por J.D. Salinger."
+description: "J.D. Salinger"
 pubDate: 2015-12-20
 image: ./pexels-nikolett-emmert-18727478.jpg
 ---

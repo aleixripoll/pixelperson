@@ -1,6 +1,6 @@
 ---
 title: "Westworld"
-description: "La primera temporada y ya."
+description: "HBO"
 pubDate: 2017-12-17
 image: ./cover.webp
 ---

@@ -1,10 +1,9 @@
 ---
 title: "El principito"
-description: "Novela de Antoine de Saint-Exupéry."
+description: "Antoine de Saint-Exupéry"
 pubDate: 2008-05-31
 image: ./cover.webp
 ---
-
 
 &ndash; Conozco un planeta donde hay un Señor Carmesí. Jamás ha aspirado una flor. Jamás ha mirado a una estrella. Jamás ha querido a nadie. No ha hecho más que sumas y restas. Y todo el día repite como tú: «¡Soy un hombre serio! ¡Soy un hombre serio!» Se infla de orgullo. Pero no es un hombre; ¡es un hongo!
 

@@ -1,11 +1,9 @@
 ---
 title: "Trainspotting"
-description: "Novela de Irvine Welsh."
+description: "Irvine Welsh"
 pubDate: 2008-06-14
 image: ./cover.webp
 ---
-
-
 
 La consecuencia de esta actitud es que me han enviado a esta mierda de terapia/consejos. Yo no quería todo esto. Era o esto o la cárcel. Empiezo a pensar que a Spud le tocó la opción blanda. Esta mierda me enturbia las aguas; confunde en vez de clarificar las cuestiones. Básicamente, lo único que pido es que cada cual se ocupe de sus propios asuntos y yo haré otro tanto. ¿Por qué será que sólo porque uno utiliza drogas duras todo quisque se cree con derecho a diseccionarle y analizarle?
 

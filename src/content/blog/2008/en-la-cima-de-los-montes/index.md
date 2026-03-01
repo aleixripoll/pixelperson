@@ -1,10 +1,9 @@
 ---
 title: "Más allá del bien y del mal"
-description: "Ensayo filosófico de Friedrich Nietzsche."
+description: "Friedrich Nietzsche"
 pubDate: 2008-06-09
 image: ./david-marcu-78A265wPiO4-unsplash.jpg
 ---
-
 
 ### En la cima de los montes
 

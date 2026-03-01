@@ -1,6 +1,6 @@
 ---
 title: "La senda del perdedor"
-description: "Nihilismo-anarquismo, por Charles Bukowski."
+description: "Charles Bukowski"
 pubDate: 2019-09-06
 image: ./pexels-ksusha-semakina-64102.jpg
 ---

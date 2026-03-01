@@ -1,6 +1,6 @@
 ---
 title: "El capitán salió a comer y los marineros tomaron el barco"
-description: "Dietario de Charles Bukowski."
+description: "Charles Bukowski"
 pubDate: 2017-08-12
 image: ./pexels-pixabay-275637.jpg
 ---

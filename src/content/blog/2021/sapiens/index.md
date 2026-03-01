@@ -1,6 +1,6 @@
 ---
 title: "Sapiens: A Brief History of Humankind"
-description: "Historia de la humanidad con un toque de filosofía, por Yuval Noah Harari."
+description: "Yuval Noah Harari"
 pubDate: 2021-02-25
 image: ./cover.jpg
 ---

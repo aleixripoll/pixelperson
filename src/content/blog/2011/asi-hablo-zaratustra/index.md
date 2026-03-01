@@ -1,10 +1,9 @@
 ---
 title: "Así habló Zaratustra"
-description: "Ensayo de Friedrich Nietzsche."
+description: "Friedrich Nietzsche"
 pubDate: 2011-05-14
 image: ./pexels-mayu-6348820.jpg
 ---
-
 
 Es difícil vivir con hombres, porque callar es muy difícil.
 

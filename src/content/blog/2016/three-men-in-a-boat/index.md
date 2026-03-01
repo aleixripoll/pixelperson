@@ -1,6 +1,6 @@
 ---
 title: "Three men in a boat"
-description: "Monty Python's hecho novela, por Jerome K. Jerome."
+description: "Jerome K. Jerome"
 pubDate: 2016-05-21
 image: ./pexels-vietnamese-private-tours-1162639.jpg
 ---

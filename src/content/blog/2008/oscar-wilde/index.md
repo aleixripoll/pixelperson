@@ -5,7 +5,6 @@ pubDate: 2008-06-05
 image: ./cover.webp
 ---
 
-
 > La mujer representa el triunfo de la materia sobre la inteligencia; de la misma manera que el hombre representa el triunfo de la inteligencia sobre la moral.
 
 > La única diferencia entre un capricho y una pasión eterna es que el capricho suele durar algo más.
