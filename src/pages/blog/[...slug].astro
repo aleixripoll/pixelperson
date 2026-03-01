@@ -13,6 +13,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+const baseUrl = import.meta.env.BASE_URL;
 
 function formatDate(date: Date) {
   return date.toLocaleDateString("en-US", {
@@ -25,7 +26,7 @@ function formatDate(date: Date) {
 <Base title={entry.data.title} description={entry.data.description ?? undefined}>
   <article class="max-w-2xl">
     <header class="post-header mb-8">
-      <a href={`${import.meta.env.BASE_URL}`} class="post-back-link">
+      <a href={baseUrl} class="post-back-link" data-base-url={baseUrl} data-back-to-posts>
         ← Back to posts
       </a>
       <div class="post-header-inner">
@@ -56,4 +57,25 @@ function formatDate(date: Date) {
       <Content />
     </div>
   </article>
+  <script>
+    (function () {
+      const link = document.querySelector('[data-back-to-posts]');
+      if (!link) return;
+      const baseUrl = link.getAttribute('data-base-url') || '/';
+      link.addEventListener('click', function (e) {
+        const ref = document.referrer;
+        if (!ref) return;
+        try {
+          const refUrl = new URL(ref);
+          const siteUrl = new URL(baseUrl, window.location.origin);
+          if (refUrl.origin !== window.location.origin) return;
+          const basePath = siteUrl.pathname.replace(/\/$/, '') || '';
+          const refPath = refUrl.pathname.replace(/\/$/, '') || '';
+          if (refPath === basePath) { e.preventDefault(); history.back(); return; }
+          if (refPath.startsWith(basePath + '/page/')) { e.preventDefault(); history.back(); return; }
+          if (refPath.startsWith(basePath + '/year/')) { e.preventDefault(); history.back(); return; }
+        } catch (_) {}
+      });
+    })();
+  </script>
 </Base>

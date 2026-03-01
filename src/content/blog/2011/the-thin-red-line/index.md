@@ -1,0 +1,11 @@
+---
+title: "The Thin Red Line"
+description: "Pel·lícula de Terrence Malick basada en la novel·la de James Jones."
+pubDate: 2011-11-21
+image: ./cover.jpg
+---
+
+
+> They want you dead, or in their lie. There's only one thing a man can do &mdash; find something that's his, and make an island for himself.
+
+> If I never meet you in this life, let me feel the lack; a glance from your eyes, and my life will be yours.

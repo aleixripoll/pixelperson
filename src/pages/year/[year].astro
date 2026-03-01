@@ -1,15 +1,22 @@
 ---
-import Base from "../layouts/Base.astro";
+import Base from "../../layouts/Base.astro";
 import { Image } from "astro:assets";
-import { getSortedPosts, PAGE_SIZE } from "../lib/blog";
-import YearFilter from "../components/YearFilter.astro";
+import { getSortedPosts } from "../../lib/blog";
+import YearFilter from "../../components/YearFilter.astro";
 
-const allPosts = await getSortedPosts();
-const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
-const posts = allPosts.slice(0, PAGE_SIZE);
-const currentPage = 1;
+export async function getStaticPaths() {
+  const allPosts = await getSortedPosts();
+  const years = [...new Set(allPosts.map((p) => p.data.pubDate.getFullYear()))].sort((a, b) => b - a);
+  return years.map((year) => {
+    const posts = allPosts.filter((p) => p.data.pubDate.getFullYear() === year);
+    return {
+      params: { year: String(year) },
+      props: { posts, year, years },
+    };
+  });
+}
 
-const years = [...new Set(allPosts.map((p) => p.data.pubDate.getFullYear()))].sort((a, b) => b - a);
+const { posts, year, years } = Astro.props;
 
 function formatDate(date: Date) {
   return date.toLocaleDateString("en-US", {
@@ -21,14 +28,12 @@ function formatDate(date: Date) {
 
 const baseUrl = import.meta.env.BASE_URL;
 ---
-<Base title="Pixelperson" description="A simple masonry blog">
+<Base title={`Pixelperson — ${year}`} description={`Posts from ${year}`}>
   <h1 class="mb-4 text-2xl font-bold text-[var(--color-text)]">Posts</h1>
-  <YearFilter baseUrl={baseUrl} years={years} currentYear={null} />
+  <YearFilter baseUrl={baseUrl} years={years} currentYear={year} />
   <div class="masonry" id="posts-masonry">
-    {posts.map((entry) => {
-      const year = entry.data.pubDate.getFullYear();
-      return (
-      <article class="masonry-item" data-year={year}>
+    {posts.map((entry) => (
+      <article class="masonry-item">
         <a href={`${baseUrl}blog/${entry.slug}/`} class="masonry-card">
           <div
             class="masonry-card-image-wrap"
@@ -58,19 +63,6 @@ const baseUrl = import.meta.env.BASE_URL;
           </div>
         </a>
       </article>
-    );
-    })}
+    ))}
   </div>
-  {totalPages > 1 && (
-    <nav class="pagination mt-10 flex flex-wrap items-center justify-center gap-4" aria-label="Pagination">
-      <span class="text-sm text-[var(--color-muted)]">
-        Page {currentPage} of {totalPages}
-      </span>
-      {currentPage < totalPages && (
-        <a href={`${baseUrl}page/${currentPage + 1}/`} class="pagination-link pagination-next">
-          Next →
-        </a>
-      )}
-    </nav>
-  )}
 </Base>

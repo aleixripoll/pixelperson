@@ -56,6 +56,7 @@ body {
   color: var(--color-muted);
   background: transparent;
   border: 1px solid transparent;
+  text-decoration: none;
 }
 
 .year-filter-btn:hover {
@@ -66,6 +67,22 @@ body {
 .year-filter-btn.is-active {
   color: var(--color-accent);
   background: transparent;
+  border-color: var(--color-accent);
+}
+
+/* Mobile year dropdown */
+.year-filter-select {
+  -webkit-appearance: none;
+  appearance: none;
+  padding-right: 1.75rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none' stroke='%236b7280' stroke-width='2'%3E%3Cpath d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+.year-filter-select:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
   border-color: var(--color-accent);
 }
 
@@ -338,6 +355,23 @@ html.dark .post-content b {
 }
 
 .post-back-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Pagination (index and page/[page]) */
+.pagination-link {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.pagination-link:hover {
+  text-decoration: underline;
+}
+
+.pagination-link:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
