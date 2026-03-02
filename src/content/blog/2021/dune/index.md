@@ -2,7 +2,7 @@
 title: "Dune"
 description: "Frank Herbert"
 pubDate: 2021-12-16
-image: ./cover.svg
+image: ./cover.png
 ---
 
 Jessica volvió a perder la calma. Sintió el castañeo de sus dientes y los apretó con fuerza. Luego oyó cómo Paul recitaba la letanía con voz baja y calmada:

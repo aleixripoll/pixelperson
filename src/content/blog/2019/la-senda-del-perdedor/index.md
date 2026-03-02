@@ -2,7 +2,7 @@
 title: "La senda del perdedor"
 description: "Charles Bukowski"
 pubDate: 2019-09-06
-image: ./cover.svg
+image: ./cover.png
 ---
 
 La instrucción me mantenía apartado de los deportes mientras los demás chicos los practicaban todos los días. Formaban equipos colegiales, ganaban sus partidos y conquistaban a las chicas. La mayoría de mis días transcurrían haciendo marchas bajo el sol.

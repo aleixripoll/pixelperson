@@ -2,7 +2,7 @@
 title: "Rebelarse vende"
 description: "El negocio de la contracultura, por Joseph Heath y Andrew Potter."
 pubDate: 2019-03-02
-image: ./pexels-jakson-martins-3880049.jpg
+image: ./pexels-jakson-martins-3880049.jpeg
 ---
 
 Hace muchas décadas que el mundo occidental empezó a usar los países del Tercer Mundo como telón de fondo para sus viajes iniciáticos personales. Esta tentación procede directamente de la teoría contracultural. Dado que nuestra cultura es un sistema de manipulación y control, quizá logremos librarnos del engaño si nos zambullimos en otra cultura (cuanto más radicalmente opuesta, mejor).
