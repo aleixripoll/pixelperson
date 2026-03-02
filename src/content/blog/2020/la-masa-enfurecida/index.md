@@ -2,7 +2,7 @@
 title: "La masa enfurecida"
 description: "Douglas Murray"
 pubDate: 2020-11-08
-image: ./cover.svg
+image: ./cover.png
 ---
 
 Para empezar, deberíamos acostumbrarnos a preguntar: «¿En comparación con qué?». Por ejemplo, cuando alguien califica nuestra sociedad actual de monstruosa, racista, sexista, homófoba, tránsfoba y patriarcal. Si nuestro sistema no funciona, ¿cuál sí funciona? Esto no quiere decir que en nuestra sociedad no haya aspectos mejorables ni que no debamos combatir la injusticia allá donde se encuentre. Solo que, cuando uno habla de nuestras sociedades con ese tono hostil de quien se erige a la vez en juez, jurado y verdugo, tenemos derecho a exigir que se explique.
