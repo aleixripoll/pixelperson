@@ -2,7 +2,7 @@
 title: "Lucro sucio"
 description: "Economía para los que odian el capitalismo, por Joseph Heath."
 pubDate: 2019-06-26
-image: ./cover.svg
+image: ./cover.png
 ---
 
 Las mujeres normalmente ganan menos que los hombres. Hay varias razones para esto, una de ellas la discriminación sexual. Para eliminar lo primero, se acepta generalmente que los hombres y mujeres que hacen el mismo trabajo deben recibir el mismo salario. La idea de «igual salario por igual trabajo» está fuera de toda controversia.
