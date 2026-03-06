@@ -4,6 +4,7 @@
 
 :root {
   --color-bg: #fafbfd;
+  --color-bg-header: #fafbfd;
   --color-text: #1a1a1a;
   --color-muted: #6b7280;
   --color-border: #e5e7eb;
@@ -12,20 +13,22 @@
 
 /* Dark theme: applied when html has .dark class */
 html.dark {
-  --color-bg: #1e2026;
+  --color-bg: #1f2735;
+  --color-bg-header: #1e2026;
   --color-text: #dcdce0;
   --color-muted: #a8a8b0;
-  --color-border: #32333a;
+  --color-border: #2e3646;
   --color-accent: #52b5e8;
 }
 
 /* Default: follow system preference when no manual choice is saved */
 @media (prefers-color-scheme: dark) {
   html:not(.light) {
-    --color-bg: #1e2026;
+    --color-bg: #1f2735;
+    --color-bg-header: #1e2026;
     --color-text: #dcdce0;
     --color-muted: #a8a8b0;
-    --color-border: #32333a;
+    --color-border: #2e3646;
     --color-accent: #52b5e8;
   }
 }
