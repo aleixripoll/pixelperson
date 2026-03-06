@@ -2,7 +2,7 @@
 title: "La pesta"
 description: "Albert Camus"
 pubDate: 2016-03-06
-image: ./hubistavern-w37Tyg8bYYM-unsplash.jpg
+image: ./cover.png
 ---
 
 

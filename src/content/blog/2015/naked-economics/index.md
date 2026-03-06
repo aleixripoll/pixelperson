@@ -2,7 +2,7 @@
 title: "Naked economics"
 description: "Charles Wheelan"
 pubDate: 2015-08-30
-image: ./pexels-pixabay-534216.jpg
+image: ./cover.png
 ---
 
 

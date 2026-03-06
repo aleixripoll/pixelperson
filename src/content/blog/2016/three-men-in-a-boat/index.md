@@ -2,7 +2,7 @@
 title: "Three men in a boat"
 description: "Jerome K. Jerome"
 pubDate: 2016-05-21
-image: ./pexels-vietnamese-private-tours-1162639.jpg
+image: ./cover.png
 ---
 
 

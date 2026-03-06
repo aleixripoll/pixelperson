@@ -2,7 +2,7 @@
 title: "Bob Adventures"
 description: "Recopilatori de la superpopular tira còmica que vaig dibuixar entre agost i desembre de 2015."
 pubDate: 2015-08-24
-image: ./pexels-khairul-nizam-16516.jpg
+image: ./cover.jpeg
 ---
 
 
