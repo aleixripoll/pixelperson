@@ -43,10 +43,7 @@ const baseUrl = import.meta.env.BASE_URL;
       return (
         <article class="masonry-item" data-year={year}>
           <a href={`${baseUrl}blog/${entry.slug}/`} class="masonry-card">
-            <div
-              class="masonry-card-image-wrap"
-              style={entry.data.image ? `aspect-ratio: ${entry.data.image.width} / ${entry.data.image.height};` : undefined}
-            >
+            <div class="masonry-card-image-wrap">
               {entry.data.image ? (
                 <Image
                   src={entry.data.image}

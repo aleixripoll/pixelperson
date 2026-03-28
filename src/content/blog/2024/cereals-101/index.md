@@ -1,7 +1,7 @@
 ---
 title: "Cereals 101"
 description: "Blat contra tots."
-image: ./cover.png
+image: ./pa_suspects.png
 pubDate: 2024-02-27
 ---
 

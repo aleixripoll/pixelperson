@@ -1,7 +1,7 @@
 ---
 title: "Estiraments 101"
 description: "Terraplanistes a mi."
-image: ./cover.png
+image: ./estira.jpeg
 pubDate: 2024-06-17
 ---
 

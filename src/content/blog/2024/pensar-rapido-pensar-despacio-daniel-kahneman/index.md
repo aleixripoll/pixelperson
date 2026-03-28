@@ -2,7 +2,7 @@
 title: "Pensar rápido, pensar despacio"
 description: "Daniel Kahneman"
 pubDate: 2024-04-14
-image: ./cover.png
+image: ./pensa.webp
 ---
 
 Una limitación general de la mente humana es su insuficiente capacidad para reconocer estados pasados del conocimiento o creencias que han cambiado. Una vez que adoptamos una nueva visión del mundo (o de una parte de él), inmediatamente perdemos buena parte de nuestra capacidad para recordar lo que solíamos creer antes de que nuestro pensamiento cambiara.
