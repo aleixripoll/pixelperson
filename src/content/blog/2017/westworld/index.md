@@ -2,7 +2,7 @@
 title: "Westworld"
 description: "HBO"
 pubDate: 2017-12-17
-image: ./cover.svg
+image: ./cover.webp
 ---
 
 

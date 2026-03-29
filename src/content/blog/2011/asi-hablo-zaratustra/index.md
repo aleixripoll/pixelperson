@@ -2,7 +2,7 @@
 title: "Así habló Zaratustra"
 description: "Friedrich Nietzsche"
 pubDate: 2011-05-14
-image: ./pexels-mayu-6348820.jpg
+image: ./cover.png
 ---
 
 Es difícil vivir con hombres, porque callar es muy difícil.
