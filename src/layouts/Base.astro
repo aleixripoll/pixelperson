@@ -6,7 +6,7 @@ interface Props {
   description?: string;
 }
 
-const { title = "Pixelperson", description = "A simple masonry blog" } = Astro.props;
+const { title = "pixelperson", description = "A simple masonry blog" } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -31,8 +31,29 @@ const { title = "Pixelperson", description = "A simple masonry blog" } = Astro.p
   <body>
     <header class="border-b border-[var(--color-border)] bg-[var(--color-bg)]" data-base-url={import.meta.env.BASE_URL}>
       <div class="mx-auto max-w-6xl px-4 py-5 sm:px-6 flex items-center justify-between gap-4">
-        <a href={import.meta.env.BASE_URL} class="site-title text-xl font-bold text-[var(--color-text)] no-underline shrink-0 group">
-          <span class="group-hover:text-[var(--color-accent)]">pixel</span>person
+        <a
+          href={import.meta.env.BASE_URL}
+          class="site-title flex items-center gap-2.5 text-xl font-semibold text-[var(--color-text)] no-underline shrink-0 group"
+        >
+          <span
+            class="site-title-icon text-[var(--color-muted)] transition-colors duration-200 group-hover:text-[var(--color-accent)]"
+            aria-hidden="true"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a4 4 0 0 0-4-4H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a4 4 0 0 1 4-4h6z" />
+            </svg>
+          </span>
+          <span class="transition-colors duration-200 group-hover:text-[var(--color-accent)]">pixelperson</span>
         </a>
         <div class="header-search flex-1 max-w-xs min-w-0 flex justify-center">
           <div class="header-search-inner relative w-full">

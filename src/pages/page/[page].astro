@@ -35,8 +35,8 @@ function formatDate(date: Date) {
 
 const baseUrl = import.meta.env.BASE_URL;
 ---
-<Base title={`Pixelperson — Page ${currentPage}`} description="A simple masonry blog">
-  <h1 class="mb-4 text-2xl font-bold text-[var(--color-text)]">Posts</h1>
+<Base title={`pixelperson — Page ${currentPage}`} description="A simple masonry blog">
+  <h1 class="mb-4 text-2xl font-semibold text-[var(--color-text)]">Posts</h1>
   <YearFilter baseUrl={baseUrl} years={years} currentYear={null} />
   <div class="masonry" id="posts-masonry">
     {posts.map((entry) => {

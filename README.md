@@ -1,4 +1,4 @@
-# Pixelperson
+# pixelperson
 
 A simple Astro blog with a masonry theme. The main page lists all posts with cover images in a responsive column layout.
 
