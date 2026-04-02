@@ -149,13 +149,22 @@ const { title = "pixelperson", description = "A simple masonry blog" } = Astro.p
           resultsEl.innerHTML = '';
         }
 
+        /** Lowercase + strip diacritics so "cafe" matches "Café", "aforismos" matches "aforismos" titles, etc. */
+        function foldForSearch(s) {
+          if (!s) return '';
+          return s
+            .normalize('NFD')
+            .replace(/\p{M}/gu, '')
+            .toLowerCase();
+        }
+
         function runSearch(q) {
-          const qq = (q || '').trim().toLowerCase();
+          const qq = foldForSearch((q || '').trim());
           if (!qq) { hideResults(); return; }
           getIndex().then(function(entries) {
             const filtered = entries.filter(function(e) {
-              const inTitle = e.title && e.title.toLowerCase().includes(qq);
-              const inDesc = e.description && e.description.toLowerCase().includes(qq);
+              const inTitle = e.title && foldForSearch(e.title).indexOf(qq) !== -1;
+              const inDesc = e.description && foldForSearch(e.description).indexOf(qq) !== -1;
               return inTitle || inDesc;
             });
             showResults(filtered);
